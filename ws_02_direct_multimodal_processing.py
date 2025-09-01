@@ -34,7 +34,7 @@ async def main():
     # 示例图像内容（请替换为实际图像路径）
     image_content = {
         "img_path": r"C:\Users\shuang_wang\Desktop\tree.png",  # 请替换为实际图像路径
-        "img_caption": ["图1: 实验结果"],
+        "img_caption": ["图: 树木"],
         "img_footnote": ["数据收集于2024年"]
     }
 

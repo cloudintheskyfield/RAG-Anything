@@ -886,7 +886,7 @@ class ImageModalProcessor(BaseModalProcessor):
                 raise RuntimeError(f"Failed to encode image to base64: {image_path}")
 
             # Call vision model with encoded image
-            response = await self.modal_caption_func(
+            response = self.modal_caption_func(
                 vision_prompt,
                 image_data=image_base64,
                 system_prompt=PROMPTS["IMAGE_ANALYSIS_SYSTEM"],
